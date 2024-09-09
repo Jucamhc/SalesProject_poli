@@ -1,33 +1,8 @@
 ```markdown
 # Sales Project
-
 Este proyecto es una aplicación en Java que procesa archivos de ventas de varios vendedores y productos, generando reportes de ventas por vendedor y por producto.
 
-## Estructura del Proyecto
-
-```
-SalesProject/
-├── src/
-│   └── com/
-│       └── project/
-│           └── sales/
-│               ├── GenerateInfoFiles.java
-│               └── Main.java
-├── data/
-│   ├── salesman_info.txt
-│   ├── products.txt
-│   ├── sales_12345678.txt
-│   ├── sales_87654321.txt
-│   ├── sales_11223344.txt
-│   ├── sales_44332211.txt
-│   └── sales_99887766.txt
-├── data/salesman_report.csv
-├── data/product_report.csv
-└── README.md
-```
-
 ## Descripción
-
 El proyecto tiene dos clases principales:
 
 1. **GenerateInfoFiles**: Esta clase genera archivos de prueba con datos pseudoaleatorios de vendedores, productos y ventas.
@@ -36,7 +11,6 @@ El proyecto tiene dos clases principales:
    - `product_report.csv`: Reporte de los productos vendidos por cantidad, ordenado de mayor a menor.
 
 ### Archivos de entrada:
-
 1. **salesman_info.txt**: Contiene la información de los vendedores.
 
 2. **products.txt**: Contiene la información de los productos disponibles.
